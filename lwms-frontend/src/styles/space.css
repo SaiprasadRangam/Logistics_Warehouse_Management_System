@@ -1,0 +1,31 @@
+.space-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.space-card {
+  background: #111827;
+  color: #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+}
+.space-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bar {
+  background: #1f2937;
+  height: 10px;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin: 12px 0;
+}
+.bar-fill {
+  height: 100%;
+  background: #22c55e;
+}
+.space-actions {
+  display: flex;
+  gap: 8px;
+}

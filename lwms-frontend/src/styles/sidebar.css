@@ -1,0 +1,30 @@
+.sidebar {
+  background: #111827;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.sidebar__brand {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sidebar__nav a {
+  color: #d1d5db;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.sidebar__nav a.active, .sidebar__nav a:hover {
+  background: #1f2937;
+  color: white;
+}
+.sidebar__logout {
+  margin-top: auto;
+  background: #374151;
+}
