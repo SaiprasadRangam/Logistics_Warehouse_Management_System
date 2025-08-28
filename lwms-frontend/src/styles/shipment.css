@@ -1,0 +1,5 @@
+.page { display: flex; flex-direction: column; gap: 16px; }
+.page-header { display: flex; align-items: center; justify-content: space-between; }
+.table { display: grid; gap: 4px; }
+.thead, .trow { display: grid; grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr; gap: 8px; background: #0f172a; color: #e5e7eb; padding: 12px; border-radius: 8px; }
+.thead { font-weight: 700; background: #111827; }
